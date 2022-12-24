@@ -1,0 +1,23 @@
+database.py -----> database.connection , db instance create, database model instance
+models.py -----> database.models
+schemas.py ------> pydantic models schema
+main.py --------> fastapi(app, status)
+todo.db
+
+
+task
+-----------------------------------------------------
+models(user,blog)
+--- user - id, pass
+--- blog - id, title, description
+
+schemas(user,blog)
+--- user - id, pass
+--- blog - id, title, description
+
+main
+--- user - create, read
+--- blog - create, read(all,single), update, delete
+-----------------------------------------------------
+1(eccomerce)
+2-4:Fullstack Webapp(frontend: NEXTjs(fetch), Backend: fastapi(db,model,reponse))-itterative
